@@ -14,4 +14,9 @@ def student(name , id):
   print(name , id)
 
 student("Raman" , 21)
+
+student_one = "aman"
+student_Two = "Raman"
+student_three = "Pawan"
+
   
