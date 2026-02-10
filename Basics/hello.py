@@ -9,4 +9,9 @@ def student(name):
   print(f'name = "{name}"')
 
 student('Raman')
+
+def student(name , id):
+  print(name , id)
+
+student("Raman" , 21)
   
