@@ -51,6 +51,19 @@ def add_item(item , my_list=[]):
   my_list.append(item)
   return my_list;
 
+# print(add_item(1))
+# print(add_item(2))
+# print(add_item(3))
+
+
+
+# “Mutable default arguments are evaluated once and shared across calls, which can cause unexpected behavior. Using None avoids this issue.”
+def add_item(item , my_list=None):
+  if my_list is None:
+    my_list=[]
+    my_list.append(item)
+    return my_list
+  
 print(add_item(1))
 print(add_item(2))
 print(add_item(3))
