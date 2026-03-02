@@ -5,6 +5,7 @@
 #     def __repr__(self):
 #         return "Aman"
 
+#String
 # s = Student()
 
 # print(str(s))
@@ -29,4 +30,6 @@ text = "abc"
 print(id(text))
 text = text + "d"
 print(id(text))
+
+#List
 
