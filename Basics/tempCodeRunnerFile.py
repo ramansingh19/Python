@@ -1,2 +1,3 @@
-text = "Python"
-# print(text[10])
+print(student)
+# print(student["name"])
+# print(student["name"])

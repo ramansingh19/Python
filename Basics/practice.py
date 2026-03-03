@@ -1,35 +1,60 @@
-# class Student:
-#     def __str__(self):
-#         return "Raman"
+# # class Student:
+# #     def __str__(self):
+# #         return "Raman"
 
-#     def __repr__(self):
-#         return "Aman"
+# #     def __repr__(self):
+# #         return "Aman"
 
-#String
-# s = Student()
+# #String
+# # s = Student()
 
-# print(str(s))
-# print(repr(s))
-# print(s)
+# # print(str(s))
+# # print(repr(s))
+# # print(s)
 
-# print(11 / 3)
-# print(11 // 3)
-# print(10 % 3)
-# print(-11 // 3)
+# # print(11 / 3)
+# # print(11 // 3)
+# # print(10 % 3)
+# # print(-11 // 3)
 
-# text = "Python"
-# print(text[-1])
+# # text = "Python"
+# # print(text[-1])
 
-# text = "Hello"
-# print(text * 3)
+# # text = "Hello"
+# # print(text * 3)
 
-# text = "Python"
-# print(text[10])
+# # text = "Python"
+# # print(text[10])
 
-text = "abc"
-print(id(text))
-text = text + "d"
-print(id(text))
+# text = "abc"
+# print(id(text))
+# text = text + "d"
+# print(id(text))
 
-#List
+# Dictionary 
+student = {
+  "name" : "Raman",
+  "age" : "22",
+  "job" : "Backend Developer"
+}
 
+# print(student)
+# print(student["name"])
+# print(student["name"])
+# for key in student:
+#     print(key)
+
+# for value in student.values():
+#     print(key , value)
+
+for key , value in student.items():
+      print(key, ":", value)
+
+if "age" in student:
+    print("Age is present")
+
+    
+if student["age"] > 20:
+    print("Young")
+else:
+    print("less")
