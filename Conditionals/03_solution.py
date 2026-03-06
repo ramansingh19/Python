@@ -1,5 +1,9 @@
 score = int(input("Tell me your score: "))
 
+if score > 100:
+  print('verify your score')
+  exit()
+
 if 90 <= score <= 100:
   print('A')
 elif 80 <= score <= 89:
