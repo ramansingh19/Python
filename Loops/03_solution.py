@@ -1,3 +1,8 @@
-table = int(input("Give me one number: "))
+number = int(input("Give me one number: "))
 
-for i in table:
+for i in range(1,11):
+  if i == 5:
+    continue
+  print(number , "x" , i, "=" , number*i)
+  
+
