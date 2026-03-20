@@ -1,6 +1,4 @@
-def greet(name , default = "raman"):
-  if name == "":
-    print(default)
+def greet(name = "raman"):
+  return "hello, "  + name + " !"
 
-# greet("")
-greet("Aman")
+print(greet("aman"))
